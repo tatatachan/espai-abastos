@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body{
+    background: url("img/patron2.jpg") top  /210px repeat-x,
+    rgb(212, 212, 203)
+}
+header{
+    text-align: center;
+ 
+      
+}
+header p{
+
+    font-size: 5rem;
+ 
+    text-shadow: lightblue 6px 0;
+}
+
+
+table.menu {
+    margin:auto;
+    text-align: center;
+    width: 50%;  
+
+    font-size: 1.5rem;
+}
+
+table.menu td {
+
+    background-color: rgb(167, 188, 255);
+  }
+
+
+table.menu td:hover {
+    background-color: black;
+  }
+  a.menu:hover{
+    color: white;
+  }
+  section{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    padding: 12px;
+    text-align: justify;
+    width: 40%;
+    background-color: white;
+    border-radius: 15%;
+
+}
+article p.html{
+  text-align: right;
+}
+
+img.talleres{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+img.talleres2{
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+  footer{
+      position: fixed;
+      bottom: 0%;
+      width: 100%;
+      text-align: left;
+  }
+  footer p {
+      text-align: center;
+  }
+  img.facebook{
+    width: 25px;
+  }
+  img.twitter{
+    width: 25px;
+  }
+  img.instagram{
+      width: 25px;
+  }

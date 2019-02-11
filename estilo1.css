@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*Pagina Web: "Quienes somos" para la pagína IES ABASTOS*/
+/*Autores: Hector, Alejandro y Jesús*/
+/*Fecha de creación 01-02-2019*/
+
+body {
+    background: url("img/patron2.jpg") top  /210px repeat-x,
+    rgb(212, 212, 203)    
+}
+header{
+    text-align: center;
+}
+header p{
+
+    font-size: 5rem;
+ 
+    text-shadow: lightblue 6px 0;
+}
+
+table.menu {
+    margin:auto;
+    text-align: center;
+    width: 50%;  
+
+    font-size: 1.5rem;
+}
+table.menu td {
+
+    background-color: rgb(167, 188, 255);
+  }
+
+
+table.menu td:hover {
+    background-color: black;
+  }
+  a.menu:hover{
+    color: white;
+  }
+h1 {
+    text-decoration: underline;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: rgb(106, 240, 106) 6px 6px 4px;
+    color: rgb(25, 233, 25);
+    text-transform: uppercase;
+}
+
+main p {
+    position: absolute;
+    text-align: justify;
+    left: 15%;
+    right: 15%;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: left;
+}
+footer p {
+    text-align: center;
+}
+img.facebook{
+  width: 25px;
+}
+img.twitter{
+  width: 25px;
+}
+img.instagram{
+    width: 25px;
+}
+img.cafeteria{
+    width: 300px;
+    height: 300px;
+}
+  img.claseinformatica{
+    width: 300px;
+    height: 300px;
+  }
+  img.taller2{
+    width: 300px;
+    height: 300px;
+  }
